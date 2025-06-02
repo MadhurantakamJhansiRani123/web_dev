@@ -8,8 +8,12 @@ body {
     height:100vh;
     background-color:rgb(243, 227, 198);
     color:rgb(143, 28, 28);
+<<<<<<< HEAD
     font-size:large;
-    font-family: "caveat",cursive;
+=======
+    font-size: large;
+>>>>>>> dfb2fdb3e303a003ca935148a5efb617a3706719
+font-family: "caveat",cursive;
 }
 
 img {
