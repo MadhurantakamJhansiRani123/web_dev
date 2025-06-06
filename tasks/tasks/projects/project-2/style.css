@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(47, 88%, 63%);
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+
+.blog {
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 42%);
+    border-radius:20px 20px 20px 20px;
+    width:300px;
+    height:400px;
+    box-shadow: 6px 5px hsl(0, 0%, 7%)
+}
+
+
+
+.img {
+     display:flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    justify-content: right; 
+
+}
+
+.down {
+         font-family: "Figtree", sans-serif;
+         
+}
+
+.head {
+    background-color: hsl(47, 88%, 63%);
+     width:13vw;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+}
+
+
+h4 {
+    display:flex;
+    align-content: right;
+}
+
+p {
+    font-size: 16px;
+     display:flex;
+    justify-content:;
+}
+
+
+h2 {
+    display:flex;
+    justify-content: space-around;
+}
+
+.icon {
+    display:flex;
+    flex-direction: row;
+}*/
+
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(47, 88%, 63%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+
+.blog {
+     display:flex;
+    flex-direction: row; 
+    flex-wrap:wrap;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 42%);
+    border-radius:20px 20px 20px 20px;
+    width:300px;
+    height:400px;
+    box-shadow: 6px 5px hsl(0, 0%, 7%)
+    
+}
+
+.img {
+    height:150px;
+    border-radius:10px;
+    justify-content: space-around;
+    
+    
+}*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img {
+    
+}
+
+body {
+    height:100vh;
+    background-color:hsl(47, 88%, 63%);
+    
+}
+
+#card {
+    max-width:30vw;
+    margin:20vh auto;
+    background-color: hsl(0, 0%, 100%);
+    color:black;
+    padding:30px 20px;
+    border-radius: 20px;
+    text-align:center;
+    box-shadow:5px 10px hsl(0, 0%, 7%);
+}
+
+p {
+    text-align:justify;
+}
+
+h2,h3,p, {
+    margin:10px 0px;
+}

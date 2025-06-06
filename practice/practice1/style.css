@@ -1,0 +1,14 @@
+#nav-bar {
+    height:10vh;
+    width:300vh;
+    background-color:antiquewhite;
+    border:5px solid black;
+    flex-direction: row;
+   
+
+}
+#nav-bar img {
+     height:42px;
+    width:50px;
+}
+
