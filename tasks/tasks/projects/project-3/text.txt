@@ -59,3 +59,274 @@ Simple Omelette Recipe
 
 
     border: 1px solid #ddd; /* Keep an outer border for the table */
+
+
+
+
+
+.cat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    width: 90vw;
+    max-width: 1200px;
+    border: 1px dashed #ccc;
+}
+
+.grid-item {
+    background-color: rgba(106, 106, 212, 0.2);
+    border: 1px solid rgba(106, 106, 212, 0.5);
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #F8F9FB;
+}
+
+.item-2 {
+    grid-column: 2 / span 2;
+    grid-row: 1 / 2;
+    background-color: #6a6ad4;
+    color: white;
+}
+
+.item-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / span 2;
+    background-color: #F8F9FB;
+}
+
+.item-4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 2;
+    background-color: #fcefd4;
+}
+
+.item-5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #fff;
+}
+
+.item-6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #fcefd4;
+}
+
+.item-7 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    background-color: #F8F9FB;
+}
+
+.item-8 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: #fff;
+}
+
+
+
+
+.item-9 {
+    grid-column: 3 / 4;
+    grid-row: 3 / span 2;
+    background-color: #6a6ad4;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #e0e8f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cat {
+    height:600px;
+    width:600px;
+    border:2px solid black;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.child {
+    background-color: bisque;
+    border:2px solid red;
+    color:blue;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="cat">
+        <div class="child child1">1</div>
+        <div class="child child2">2</div>
+        <div class="child child3">3</div>
+        <div class="child child4">4</div>
+        <div class="child child5">5</div>
+        <div class="child child6">6</div>
+        <div class="child child7">7</div>
+        <div class="child child8">8</div>
+        <div class="child child9">9</div>
+       <!-- <div class="child child10">10</div>
+        <div class="child child11">11</div>
+        <div class="child child12">12</div> -->
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.cat {
+    height: 600px;
+    width:600px;
+    border:2px solid black;
+    display:grid;
+    grid-template-columns: 200px 200px 200px ;
+}
+
+.child {
+    background-color: bisque;
+    border:2px solid red;
+    color:blue;
+  
+    
+}
+
+.child3 {
+    grid-row: 1/6;
+    
+}
+
+.child8 {
+    grid-row:4/6;
+
+}
+
+
+<iframe width="914" height="514" src="https://www.youtube.com/embed/j4lnvFiF8sA" title="Motu Patlu - Kung Fu movie marathon | 30th Sept to 2nd Oct, 11:30 AM to 2:30 PM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+
+chotabheem:
+
+1.    <iframe width="914" height="514" src="https://www.youtube.com/embed/IGli01kZD14" title="Chhota Bheem - Trip to Rajasthan | Cartoons for Kids | Fun Kids Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+2.      <iframe width="914" height="514" src="https://www.youtube.com/embed/NIEqdl36JuA" title="Chhota Bheem - Scary Mirror in the Forest | दर्पण की दुनिया | Cartoons for Kids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+3.      <iframe width="643" height="514" src="https://www.youtube.com/embed/P-SaezBnQ2g" title="Chhota Bheem aur Krishna - पाटलिपुत्र में समस्या | Cartoon Videos | Kids Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+4.       <iframe width="914" height="514" src="https://www.youtube.com/embed/vizynGz5Mg8" title="Chhota Bheem - Alibaba 40 Chor | Cartoons for Kids | Fun Kids Videos in Hindi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+5.       <iframe width="914" height="514" src="https://www.youtube.com/embed/lSpCPCN8Ubc" title="Chhota Bheem - Bheem and the Lost City | Animated Adventure Videos | Cartoons for Kids in Hindi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+<img src="" alt="title" height="150px" width="250px"> 
+
+
+          
+      <img src="./catbowl-removebg-preview.png" alt="bowl" width="250px" />
+          <img
+            src="./how-often-and-how-much-should-i-feed-my-kitten-removebg-preview.png"
+            alt="playtime"
+            width="250px"
+            height="200px"
+          />
+          <img src="./catbowl-removebg-preview.png" alt="bowl" width="250px" />
+
+
+
+
+Chhota Bheem is a brave and kind boy from Dholakpur. He is very strong and loves eating ladoos, which give him extra power. He protects his village from danger and defeats bad people. With his smart thinking and loyal friends, he goes on exciting adventures, always helping others along the way.
+
+Chutki is a sweet and smart girl from Dholakpur. She is Bheem’s best friend and always helps him in his adventures. She is kind, caring, and loves ladoos. Chutki is brave and clever, often finding solutions to problems. She enjoys spending time with her friends and supporting them in every challenge.
+
+Raju is a brave and playful boy from Dholakpur. He is small but very strong and dreams of becoming a great warrior like Bheem. He is always ready to help his friends and loves adventure. With his quick thinking and fearless nature, he proves that size doesn’t matter in bravery!
+
+Jaggu is a clever and playful monkey from Dholakpur. He is Bheem’s loyal friend and helps him in every adventure. Jaggu can talk and is very smart. He loves swinging on trees and making jokes. His quick thinking and fun nature make him a great companion for Bheem and his friends.
+
+Kalia is a strong but mischievous boy from Dholakpur. He often tries to show that he is better than Bheem but fails. He is not bad at heart and sometimes helps his friends. Kalia is always with his sidekicks, Dholu and Bholu. Though he causes trouble, he adds fun to adventures.
+
+Dholu and Bholu are twin brothers from Dholakpur. They are Kalia’s loyal sidekicks and always follow him. Though they try to act tough, they are actually quite silly and often get into trouble. They love to copy each other and make funny mistakes, adding humor to Bheem’s exciting adventures.
+
+The King of Dholakpur, **Indraverma**, is a wise and kind ruler. He cares for his people and always seeks peace. He trusts Bheem and often asks for his help in protecting the kingdom. Though royal, he is humble and fair, making sure Dholakpur stays safe and happy for everyone.
+
+Indumati is the kind and graceful princess of Dholakpur. She is the daughter of King Indraverma and is loved by everyone. She is polite, caring, and always ready to help others. Indumati admires Bheem’s bravery and supports him in his adventures. She brings warmth and happiness to the kingdom.
+
+          
